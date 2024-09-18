@@ -54,9 +54,17 @@ dependencies:
   # https://pub.dev/packages/get_it
   get_it: ^7.7.0
 
+  # A dart package that helps implement the BLoC pattern.
+  # https://pub.dev/packages/bloc
+  bloc: ^8.1.1
+
   # Widgets that make it easy to integrate blocs and cubits into Flutter
   # https://pub.dev/packages/flutter_bloc
   flutter_bloc: ^8.1.1
+
+  # Being able to compare objects in Dart often involves having to override the == operator as well as hashCode.
+  # https://pub.dev/documentation/equatable/latest/
+  equatable: ^2.0.3
 
   # RxDart extends the capabilities of Dart Streams and StreamControllers.
   # https://pub.dev/packages/rxdart
