@@ -74,6 +74,14 @@ dependencies:
   # https://pub.dev/packages/shared_preferences
   shared_preferences: ^2.2.3
 
+  # Simple, fast generation of RFC4122 and RFC9562 UUIDs.
+  # https://pub.dev/packages/uuid
+  uuid: ^4.5.0
+
+  # A unified form representation in Dart. Formz aims to simplify form representation and validation in a generic way.
+  # https://pub.dev/packages/formz
+  formz: ^0.7.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
