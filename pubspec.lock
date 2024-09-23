@@ -336,6 +336,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "14.2.7"
+  google_fonts:
+    dependency: "direct main"
+    description:
+      name: google_fonts
+      sha256: b1ac0fe2832c9cc95e5e88b57d627c5e68c223b9657f4b96e1487aa9098c7b82
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.2.1"
   graphs:
     dependency: transitive
     description:
@@ -344,6 +352,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.1"
+  hive:
+    dependency: transitive
+    description:
+      name: hive
+      sha256: "8dcf6db979d7933da8217edcec84e9df1bdb4e4edc7fc77dbd5aa74356d6d941"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.3"
+  http:
+    dependency: transitive
+    description:
+      name: http
+      sha256: b9c29a161230ee03d3ccf545097fccd9b87a5264228c5d348202e0f0c28f9010
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.2"
+  http_mock_adapter:
+    dependency: "direct main"
+    description:
+      name: http_mock_adapter
+      sha256: "46399c78bd4a0af071978edd8c502d7aeeed73b5fb9860bca86b5ed647a63c1b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.6.1"
   http_multi_server:
     dependency: transitive
     description:
@@ -360,6 +392,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.2"
+  hydrated_bloc:
+    dependency: "direct main"
+    description:
+      name: hydrated_bloc
+      sha256: af35b357739fe41728df10bec03aad422cdc725a1e702e03af9d2a41ea05160c
+      url: "https://pub.dev"
+    source: hosted
+    version: "9.1.5"
   io:
     dependency: transitive
     description:
@@ -424,6 +464,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.0"
+  logger:
+    dependency: transitive
+    description:
+      name: logger
+      sha256: "697d067c60c20999686a0add96cf6aba723b3aa1f83ecf806a8097231529ec32"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.0"
   logging:
     dependency: transitive
     description:
@@ -504,6 +552,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.0"
+  path_provider:
+    dependency: "direct main"
+    description:
+      name: path_provider
+      sha256: fec0d61223fba3154d87759e3cc27fe2c8dc498f6386c6d6fc80d1afdd1bf378
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.4"
+  path_provider_android:
+    dependency: transitive
+    description:
+      name: path_provider_android
+      sha256: a248d8146ee5983446bf03ed5ea8f6533129a12b11f12057ad1b4a67a2b3b41d
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.4"
+  path_provider_foundation:
+    dependency: transitive
+    description:
+      name: path_provider_foundation
+      sha256: f234384a3fdd67f989b4d54a5d73ca2a6c422fa55ae694381ae0f4375cd1ea16
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.0"
   path_provider_linux:
     dependency: transitive
     description:
@@ -757,6 +829,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.0"
+  synchronized:
+    dependency: transitive
+    description:
+      name: synchronized
+      sha256: "539ef412b170d65ecdafd780f924e5be3f60032a1128df156adad6c5b373d558"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.0+1"
   term_glyph:
     dependency: transitive
     description:
@@ -879,4 +959,4 @@ packages:
     version: "3.1.2"
 sdks:
   dart: ">=3.3.3 <4.0.0"
-  flutter: ">=3.19.0"
+  flutter: ">=3.19.2"

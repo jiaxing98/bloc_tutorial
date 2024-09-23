@@ -26,7 +26,6 @@ class PostDataSourceImpl extends PostDataSource {
     final data = (response.data as List<dynamic>)
         .cast<Map<String, dynamic>>()
         .map((e) => PostEntity.fromJson(e));
-    print(data);
     return data.map((e) => Post.fromEntity(e)).toList();
   }
 }

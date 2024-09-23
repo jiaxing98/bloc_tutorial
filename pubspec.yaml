@@ -50,6 +50,10 @@ dependencies:
   # https://pub.dev/packages/dio
   dio: ^5.4.0
 
+  # A simple to use mocking package for Dio intended to be used in tests.
+  # https://pub.dev/packages/http_mock_adapter
+  http_mock_adapter: ^0.6.1
+
   # This is a simple Service Locator for Dart and Flutter projects
   # https://pub.dev/packages/get_it
   get_it: ^7.7.0
@@ -61,6 +65,10 @@ dependencies:
   # Widgets that make it easy to integrate blocs and cubits into Flutter
   # https://pub.dev/packages/flutter_bloc
   flutter_bloc: ^8.1.1
+
+  # An extension to package:bloc which automatically persists and restores bloc and cubit states.
+  # https://pub.dev/packages/hydrated_bloc
+  hydrated_bloc: ^9.1.5
 
   # Being able to compare objects in Dart often involves having to override the == operator as well as hashCode.
   # https://pub.dev/documentation/equatable/latest/
@@ -74,6 +82,10 @@ dependencies:
   # https://pub.dev/packages/shared_preferences
   shared_preferences: ^2.2.3
 
+  # A Flutter plugin for finding commonly used locations on the filesystem.
+  # https://pub.dev/packages/path_provider
+  path_provider: ^2.1.4
+
   # Simple, fast generation of RFC4122 and RFC9562 UUIDs.
   # https://pub.dev/packages/uuid
   uuid: ^4.5.0
@@ -81,6 +93,10 @@ dependencies:
   # A unified form representation in Dart. Formz aims to simplify form representation and validation in a generic way.
   # https://pub.dev/packages/formz
   formz: ^0.7.0
+
+  # A Flutter package to use fonts from fonts.google.com.
+  # https://pub.dev/packages/google_fonts
+  google_fonts: ^6.2.1
 
 dev_dependencies:
   flutter_test:
